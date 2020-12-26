@@ -1,0 +1,37 @@
+
+:host{
+    position: fixed;
+    z-index: 999;
+}
+
+.example-container{
+    background-color:white;
+ }
+ 
+mat-toolbar{
+    position: fixed;
+    border-radius:100px; 
+    background-color: white;
+    border: 1px solid blanchedalmond ;
+    max-width:950px;
+   top:20px;
+   left: 11%;
+   box-shadow:0px 0px 15px rgba(0,0,0,0.1) ;
+
+}
+.example-sidenav-content img{
+  width: 150px;
+}
+.nav{
+   width:100;
+}
+
+.mat-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button{
+    font-size:14px;
+    margin-left:5px;
+}
+.mat-button:hover {
+    color:#ff589e ;
+    
+}
+

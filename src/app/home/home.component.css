@@ -1,0 +1,529 @@
+
+ .header{
+    min-height:700px;
+    background-image: url('src/assets/image/banner-bg.png');
+    background-size: cover; 
+}
+.btn{
+    text-align: center;
+    margin-top: 45px;
+ }
+ .mat-raised-button{
+    border-radius: 50px;
+    background-color: #ff589e;
+    color: white;
+    font-size:15px;
+    font-weight:300;
+ }
+ .mat-raised-button:hover{
+     background-color: #8261ee;
+     color: white;
+ }
+ 
+ .pr{
+     padding-top: 140px;
+     font-size:30px ;
+     margin-bottom:25px;
+     font-weight: normal;
+     text-align: center;
+     color: white;
+     margin:0;
+     line-height:45px;
+ }
+ .wo{
+    padding-top: 10px;
+    font-size:30px ;
+    margin-bottom:25px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin-top:50px;
+    line-height:45px;
+}
+ .pr span {
+     font-weight: bold;
+     margin-left: 5px;
+ }
+ .par{
+     font-size:17px;
+     line-height:25px;
+     text-align: center;
+     color:white
+ }
+
+ /* section card */
+ .content .mat-elevation-z4 { 
+     width:250px; 
+     height:185px;
+     margin-left:80px;
+ 
+   }
+   .card{
+       text-align: center;
+       top:-200px;
+       border-radius:20px;
+   }
+ 
+ .card img{
+       width:80px;
+       height:80px;
+      border-radius:100px;
+      background-color: #8261ee; 
+      margin: auto;     
+      margin-top:10px;  
+   }
+  
+   .card .mat-card-header{
+       text-align: center;
+   }
+   .mat-card:not([class*=mat-elevation-z]){
+       box-shadow: none;
+   }
+ /* section about */
+ 
+ .row .le{
+   margin-top:-145px;
+    margin-left:700px;
+    font-size: 25px;
+ }
+ .row .images{
+     margin-top:-100px;
+     width: 200px;
+     height: 200px;
+     margin-left:200px;
+ }
+ .example-card .nu{
+     margin-bottom:150px;
+     margin-left:700px;
+     font-size: 15px;
+     line-height:23px;
+ }
+ mat-divider{
+     margin-left: 200px;
+     width: 70%;
+ }
+ .example .row1 .we{
+     margin-top:-140px;
+      margin-left:150px;
+      font-size:25px;
+   }
+   .row1 .imag{
+       width: 200px;
+       height: 200px;
+       margin-left:850px;
+       margin-top: 150px;
+ 
+ 
+   }
+   .example .row1 .ae{
+       margin-bottom: 10px;
+       margin-left:150px;
+       font-size: 15px;
+       line-height:20px;
+   }
+ 
+   /* section workprocess */
+   .workprocess{
+       margin-top: 100px;
+       max-height:500px;
+       background-image: url('src/assets/image/work-process-bg.png');
+       background-size: cover;
+   }
+    .workprocess h1{
+        padding-top:90px;
+        margin-bottom: 20px;
+    }
+    .workprocess .vec{
+        color: white;
+        line-height:25px;
+        text-align: center;
+    }
+    .conten .mat-elevation-z4 { 
+     margin-top:300px;
+     width:130px; 
+     height:150px;
+     margin-left:65px;    
+     
+   }
+   .car{
+       text-align: center;
+       top:-270px;
+       border-radius:20px;
+       cursor: pointer;
+      
+   }
+ 
+ .car img{
+       width:30px;
+       height:30px;
+      margin: auto;     
+      margin-top:10px; 
+       
+   }
+   .car .ge{
+       color: #777;
+       font-size: 15px;
+       margin-top: 10px;
+   }
+   /* section testimonals */
+   .testimonials{
+     padding-top: 100px;
+ 
+   }
+  .testimonials .wh{
+     font-size:25px ;
+     text-align: center;
+     color: #000;
+     margin-bottom: 20px;
+     font-weight: 500;
+     letter-spacing:2px;
+     
+  }
+  
+ .testimonials .do{
+     color:#777;;
+     line-height:25px;
+     text-align: center;
+ }
+ .conte .mat-elevation-z4 { 
+  margin-top:350px;
+  width:280px; 
+  height:255px;
+  margin-left:50px;    
+  
+ }
+ .ca{
+    text-align: center;
+    top:-270px;
+    border-radius:20px;
+    cursor: pointer;
+   
+ }
+ 
+ .ca .test{
+    width:30px;
+    height:30px;
+   margin: auto;     
+   margin-top:10px; 
+    
+ }
+ .ca .pr{
+     font-size:16px;
+     text-align: left;
+     color:#777;
+     line-height:30px;
+     margin-top: -120px;
+     margin-bottom:12px
+ }
+   .ca .pn{
+       width:55px;
+       height:55px;
+       border-radius:40px;
+       margin-right: 230px;
+   }
+ .ca .cath{
+     margin-top:-50px;
+     font-size: 15px;
+     text-align:center;
+     font-weight: 400;
+ } 
+ .ca .di{
+     text-align: center;
+     color: #ff589e;
+ } 
+ /* section pricing plans */
+ .pricingplans{
+     background-color:#f2f2fe;
+     max-height:800px;
+ }
+ .pricingplans .pric{
+     margin-top: -200px;
+     padding-top: 80px;
+     font-size:25px ;
+     font-weight:500;
+     text-align: center;
+     color:#000;
+   }
+ .pricingplans .don{
+     text-align: center;
+     color:#777;
+     line-height: 25px;
+ 
+ }  
+ .pricingplans .row {
+   display:flex;
+   padding-top: 50px;
+ }
+ .pricingplans .row .c{
+     padding-top: 40px;
+     width: 250px;
+     height: 400px;
+     border-radius:20px;
+     text-align: center;
+     margin-left:96px;
+     margin-bottom:80px;
+ }
+ .pricingplans .row .cc{
+    margin-top:-30px;
+ }
+ .pricingplans .row .c h2{
+     font-weight:400;
+     font-size: 19px;
+     margin-bottom:20px;
+ }
+ .pricingplans .row .c p{
+     font-size:13px;
+     color: #777;
+ }
+ .pricingplans .row .c .mon{
+     font-size:25px;
+     font-weight: bold;
+     color:#fff;
+     background-color: #8261ee;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     border-radius: 30px;
+     margin-bottom:40px;
+ }
+ .pricingplans .row .c .mon > span{
+     font-size:15px;
+     font-weight:300;
+ }
+ .pricingplans .row .c .mont{
+     font-size:25px;
+     font-weight: bold;
+     color:#fff;
+     background-color: #8261ee;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     border-radius: 30px;
+     margin-bottom:40px;
+ }
+ .pricingplans .row .c .mont > span{
+     font-size:15px;
+     font-weight:300;
+ }
+ .pricingplans .row .c .thly{
+     font-size:25px;
+     font-weight: bold;
+     color:#fff;
+     background-color:#ff589e;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     border-radius: 30px;
+     margin-bottom:40px;
+ }
+ .pricingplans .row .c .thly > span{
+     font-size:15px;
+     font-weight:300;
+ }
+ .pricingplans .row .c .se, .mi, .unl{
+     margin-bottom:10px;
+     text-decoration: line-through;
+ 
+ }
+ .pricingplans .row .c .se{
+     margin-bottom: 40px;
+ }
+ .deco{
+     border-radius: 50px;
+     background-color:#8261ee;
+     color: white;
+     font-size:15px;
+     font-weight:300;
+     padding: 10px;
+     border: 0 solid white;
+  }
+  .deco:hover{
+      background-color:#ff589e;
+      color: white;
+  }
+  .row2{
+     max-height:600px;
+     background-image: url('src/assets/image/fun-facts-bg.png');
+     background-size: cover;
+     display: flex;
+     padding-top: 100px;
+     padding-bottom: 100px;
+ }
+ .row2 .ass{
+     margin-left:50px;
+ }
+ .row2 .ass p{
+     margin-left:50px;
+     font-size: 20px;
+     font-weight: bold;
+     color: #fff;
+ }
+ .row2 .ass span{
+     margin-left:40px;
+     font-size: 15px;
+     font-weight:500;
+     color: #fff;
+ }
+ .row2  .ass img{
+     margin-top:-200px;
+     margin-left:100px;
+ }
+ /* section Blog Entries */
+ 
+ .blogentries{
+     padding-top: 350px;
+ 
+   }
+  .blogentries .wh{
+     font-size:25px ;
+     text-align: center;
+     color: #000;
+     margin-bottom:30px;
+     font-weight: 500;
+     letter-spacing:2px;
+     
+  }
+  
+ .blogentries .do{
+     font-size: 15px;
+     color:#777;;
+     line-height:25px;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ .blogentries .conte .mat-elevation-z4 { 
+  margin-top:350px;
+  width:280px; 
+  height:250px;
+  box-shadow: none; 
+ }
+ .blogentries .ca{
+    text-align: center;
+    top:-355px;
+    border-radius:20px;
+    cursor: pointer; 
+ }
+ 
+ .blogentries .ca .test{
+    width:250px;
+    height:160px;
+   margin: auto;     
+   margin-top:10px; 
+   margin-bottom:20px;
+    
+ }
+ .blogentries .ca .pr{
+     text-align: center;
+     font-size:12px;
+     color:#777;
+     line-height:20px;
+     margin-bottom: 20px
+ }
+ .blogentries .ca .cath{
+     margin-top:20px;
+     font-size: 15px;
+     text-align:center;
+     font-weight: 500;
+     margin: auto;
+
+ } 
+ .blogentries .ca .deco{
+     padding: 13px;
+     font-size: 12px;
+ }
+ /* section tolk to us */
+ .talktous{
+     background-color:#f2f2fe;
+     max-height:800px;
+ }
+ .talktous .t .ta{
+     margin-top: -200px;
+     padding-top: 80px;
+     font-size:25px ;
+     font-weight:500;
+     text-align: center;
+     color:#000;
+   }
+ .talktous .t .ma{
+     text-align: center;
+     color:#777;
+     line-height: 25px;
+     margin-bottom: 50px;
+ }  
+  .talktous .keep{
+     max-width: 950px;
+     margin: auto;
+     display: flex;
+    
+ }
+ .talktous .keep .ke{
+     width: 35%;
+     margin-top: 10px;
+     
+ }
+ .talktous .keep .ke .ep{
+     font-size: 17px;
+     font-weight: 500;
+     margin-top:15px;
+ }
+ .talktous .keep .ke p{
+     font-size: 13px;
+     color: #777;
+     line-height:20px;
+      margin-top:30px;
+ }
+ .talktous .keep .form{
+     width: 65%;
+    
+     margin-top:25px;
+     
+ }
+ .mat-form-field{
+     width:295px;
+     padding-bottom:10px;
+ 
+     margin-left:10px;
+     border: 0 solid white;
+ 
+ }
+ 
+ .mat-form-field input  {
+     font-size: 14px;
+     padding-left:5px;
+     height:20px;
+     width: 285px;
+     
+ }
+ 
+ ::ng-deep  .mat-form-field-appearance-fill .mat-form-field-flex{
+     background-color:white;
+     border-radius: 50px !important;
+     padding:2px!important;
+ }  
+ .messag{
+     width:98%;
+     font-size: 14px;
+ }
+ ::ng-deep .messag  .mat-form-field-flex{
+   
+     border-radius:20px !important;
+ }
+ 
+ 
+ 
+ ::ng-deep .mat-form-field-underline{
+     display: none;
+ }
+ .form .send{
+     padding:10px;
+     background-color: #8261ee;
+     border-radius: 30px;
+     border: 0 solid white;    
+     color: white;
+     margin-left:15px;
+     margin-bottom:100px;
+ }
+ .form .send:hover {
+     background-color: #ff589e;
+     color: white;
+ }
+ 
+ 
+ 
